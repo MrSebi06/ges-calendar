@@ -105,6 +105,7 @@ def create_ics(agenda: dict, start: str, end: str):
 
     with open(f"ges_calendar_from_{start}_to_{end}.ics", "w") as f:
         f.writelines(calendar)
+    os.rename(f"ges_calendar_from_{start}_to_{end}.ics", "calendar.ics")
 
 
 def parse_arguments() -> argparse.Namespace:
