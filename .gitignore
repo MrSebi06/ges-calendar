@@ -2,3 +2,7 @@
 *.ics
 .vscode
 .idea
+venv/
+credentials.json
+__pycache__/
+*.pickle
