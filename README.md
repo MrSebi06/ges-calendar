@@ -1,5 +1,6 @@
 # GES calendar
 
+Fork du projet [ges-calendar](https://github.com/Florent-COMPAGNONI/ges-calendar) de [@Florent-COMPAGNONI](https://github.com/Florent-COMPAGNONI).
 
 Ges calendar est une application python permettant de récupérer son planning [myGES](https://myges.fr) et de créer un fichier .ics, permettant ainsi de l'importer sur sur n'importe quel agenda.
 
@@ -39,20 +40,4 @@ Par défaut un fichier .ics est créé à la racine du projet avec tous les év�
 python ./main.py --start-date=2023-09-11 --end-date=2023-09-17
 ```
 
-
-Vous pouvez ensuite importer ce fichier sur l'agenda de votre choix
-
-
-- pour importer sur [Google Calendar](https://support.google.com/calendar/answer/37118?hl=en&co=GENIE.Platform%3DDesktop#)
-- pour importer sur [Outlook](https://support.microsoft.com/en-us/office/import-calendars-into-outlook-8e8364e1-400e-4c0f-a573-fe76b5a2d379)
-- pour importer sur [iCloud calendar](https://support.apple.com/fr-fr/guide/calendar/icl1023/mac)
-
-
-## Commentaires
-Voici quelques liens de projets similaires réalisés dans d'autres languages et qui m'ont inspiré.
-- [MyCal](https://github.com/obito/mycal)
-- [MyGES CLI](https://github.com/quantumsheep/myges-cli)
-- [Agenda-GES](https://github.com/kidelag/agenda-ges)
-- [MyGes API Client Library for PHP](https://github.com/tchenu/myges/tree/master)
-- [How to get an .ics and online calendar file instead using MyGES Extranet?](https://tomjorge.me/how-to-get-an-ics-and-online-calendar-file-instead-using-myges-extranet/amp/)
 
